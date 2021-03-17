@@ -1,0 +1,25 @@
+# NOTE: make sure setup.py has the same version of dependencies. That's what Travis is using
+
+pylint>=2.3.1
+absl-py>=0.9.0
+pycodestyle>=2.4.0
+PTable==0.9.2
+keras>=2.3.1
+jupyter
+pandas
+jupyter_nbextensions_configurator
+matplotlib
+numpy
+pytest-pep8
+scipy
+pytest
+nbconvert # to convert jupyter notebooks to pdf
+#NOTE: purposely forcing user to install manually to switch between CPU and GPU version
+# CCC currently seems to only support TF 2.0 http://ccc.pok.ibm.com:1313/tools/tensorflow/
+tensorflow==2.3.1
+#  if running on server
+#tensorflow-gpu==2.3.1
+# tensorboard_plugin_profile==2.0
+memory_profiler
+tensorflow_hub
+#tensorflow_probability
